@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kleuren Toggle</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="hamburger">
+        <img
+          src="hamburger_menu.png"
+          alt="hamburger menu"
+          width="50px"
+          height="50px"
+        />
+        <ul class="color__menu--hide">
+          <li class="color--home">Home</li>
+          <li class="color--red">Red</li>
+          <li class="color--orange">Orange</li>
+          <li class="color--yellow">Yellow</li>
+          <li class="color--green">Green</li>
+          <li class="color--blue">Blue</li>
+          <li class="color--purple">Purple</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1 class="text">Background color selected:</h1>
+      <form class="color__form" action="">
+        <p>Or select a color here:</p>
+        <input type="radio" name="colorRadio" id="gray" />
+        <label for="gray">Gray</label>
+        <input type="radio" name="colorRadio" id="red" />
+        <label for="red">Red</label>
+        <input type="radio" name="colorRadio" id="orange" />
+        <label for="orange">Orange</label>
+        <input type="radio" name="colorRadio" id="yellow" />
+        <label for="yellow">Yellow</label>
+        <input type="radio" name="colorRadio" id="green" />
+        <label for="green">Green</label>
+        <input type="radio" name="colorRadio" id="blue" />
+        <label for="blue">Blue</label>
+        <input type="radio" name="colorRadio" id="purple" />
+        <label for="purple">Purple</label>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

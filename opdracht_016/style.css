@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  }
+  header {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+  }
+  
+  h1 {
+    position: absolute;
+    display: flex;
+    top: -10rem;
+    justify-content: center;
+    margin: auto;
+    width: 100vw;
+  }
+  
+  main {
+    position: relative;
+    top: 50vh;
+    width: 100%;
+  }
+  
+  .color--home {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  .color--red {
+    background-color: red;
+    color: lightgray;
+  }
+  
+  .color--orange {
+    background-color: orange;
+    color: black;
+  }
+  
+  .color--blue {
+    background-color: blue;
+    color: lightgray;
+  }
+  
+  .color--green {
+    background-color: green;
+    color: lightgray;
+  }
+  
+  .color--yellow {
+    background-color: yellow;
+    color: #000;
+  }
+  
+  .color--purple {
+    background-color: purple;
+    color: lightgray;
+  }
+  
+  .color__menu {
+    position: absolute;
+    left: -20px;
+    top: 35px;
+    transition: 0.2s;
+    transition-delay: 0.25s;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+    width: 200px;
+  }
+  
+  .color__menu:hover {
+    cursor: pointer;
+  }
+  
+  .color__form {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100vw;
+  }
+  
+  .color__menu li,
+  .color__menu--hide li {
+    margin: 0;
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .color__menu--hide {
+    position: absolute;
+    left: -220px;
+    top: 35px;
+    transition: 0.2s;
+    transition-delay: 0.25s;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 200px;
+  }
